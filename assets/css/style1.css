@@ -2,7 +2,7 @@
     font-family: "architects daughter" , sans-serif;
     text-align-last: center;
     margin-top: 1rem;
-    font-size: 10rem;
+    font-size: 11em;
 }
 
 .bg-pastel{
@@ -13,26 +13,40 @@
 }
 
 .textaffich{
-    text-align-last: center;
-    margin: 1em;
+    text-align:center;
     font-family :"architects daughter" , sans-serif;
     font-size: 3em;
     
 }
+.player{
+    font-size: 3em;
+    margin-left: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.both{
+justify-content: left;
+}
 
 .blur{
-    background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
+    padding: 5rem;
+    margin-top: 4rem;
+    margin-left: 27em;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.4)transparent ;
+    box-shadow: 0 58px 52px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
 
 }
 
 .image{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 10em;
+    margin-left: 55rem;
+    margin-right: 55rem;
 }
 
 #btn1, #btn2, #btn3 {
@@ -41,6 +55,9 @@
 }
 @media screen and (max-width: 576px) {
     .blur{
+        width:100px;
+        height: 100px;
+
         justify-items: center;
         text-align: center;
         font-size: 2em;
@@ -64,7 +81,7 @@
         height: 160px;
         width: 160px;
         cursor: pointer;
-    }
-     
+    } 
  }
+
  /* Coucou */
