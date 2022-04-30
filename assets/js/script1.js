@@ -79,7 +79,7 @@ btn3.addEventListener('click', () => {
         msg = 'Egalité';
     }else if
         (iaChoiceStr==2){
-        msg = 'Bravo !';
+        msg = 'Bravo';
     } else {
         msg = 'Défaite';
     }

@@ -15,7 +15,7 @@ body{
     margin-top: 80rem;
     text-align: center;
     font-family :"architects daughter" , sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 5rem; 
     height: 10rem;
     background: hsla(0, 100%, 98%, 0.171) !important;
@@ -35,13 +35,12 @@ body{
 }
 
 .image{
-    margin-left: 7rem;
+    margin-inline: 2rem;
     margin-top: 1rem;
-    height: 9rem;
+    height: 5rem;
 }
 
 #btn1, #btn2, #btn3 {
-    font-size: 0rem; 
     cursor: pointer;
 }
 @media screen and (max-width: 576px) {
@@ -57,11 +56,9 @@ body{
 
     }
     .image {
-
-        flex-direction: column;
         margin-top: 2em;
-        margin-left: 7.5em;
         padding-top: 2.5em;
+        
 
 
     }
