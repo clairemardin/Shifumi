@@ -16,23 +16,37 @@
     
     <title>Javascript</title>
 </head>
+<header>
+    <div class="container-fluid">
+        <div class="col titre text-center"><p>Shifumi</p></div>
+    </div>
+</header>
+    
 
-<body class="bg-pastel" >
-    <h1 class="titre">Shifumi</h1><br>
-    <span class="player">Payer1</span>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 col-lg-4 py-1 player justify-content-center d-flex mt-5"><h2>Player 1</h2>
+            </div>
 
+            <div class="col-4 col-lg-4 py-1 textAffich justify-content-center d-flex mt-5" id="rst" >
+            </div>
 
-    <div class="textaffich blur"id="rst"></div>
-
-        <div class="image">
-            <img id="btn1" src="./assets/img/roche-depositphotos-bgremover.png" alt="">
-            <img id="btn2" src="./assets/img/feuille.png" alt="">
-            <img id="btn3" src="./assets/img/ciseaux.png" alt="">
+            <div class="col-4 col-lg-4 py-1 both justify-content-center d-flex mt-5"><h2>Both</h2>
+            </div>
         </div>
-        
+        <div class="row">
+            <div class="col-12 md-1 justify-content-center d-flex mt-5 ">
+                <img class="image" id="btn1" src="./assets/img/roche-depositphotos-bgremover.png" alt="icon pierre">
+                <img class="image" id="btn2" src="./assets/img/feuille.png" alt="icon feuille">
+                <img class="image" id="btn3" src="./assets/img/ciseaux.png" alt="icon ciseaux">
+            </div>
+        </div>
+    </div>
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./assets/js/script1.js"></script>
 </body>
 

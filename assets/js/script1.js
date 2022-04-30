@@ -79,7 +79,7 @@ btn3.addEventListener('click', () => {
         msg = 'Egalité';
     }else if
         (iaChoiceStr==2){
-        msg = 'Victoire';
+        msg = 'Bravo !';
     } else {
         msg = 'Défaite';
     }
@@ -98,7 +98,7 @@ switch (iaChoiceStr) {
         break;     
 }
 
-    document.getElementById('rst').innerHTML =`Vous avez choisi ciseaux et le pc ${iaChoiceStr} : ${msg} !`
+    document.getElementById('rst').innerHTML =`Vous avez choisi ciseaux et both a choisi ${iaChoiceStr} : ${msg} !`
    
 });
 
